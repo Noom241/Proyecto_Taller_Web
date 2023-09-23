@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG11ZWJsZXN8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.encabezado{
+    width: 100%;
+    height: 10vh;
+}
+
+.container {
+    position: relative;
+    min-width: 300px;
+    min-height: 450px;
+    width: 80%;
+    height: 80vh;
+    
+    overflow: hidden;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/* Estilos para la capa semitransparente */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(207, 168, 95, 0.493); /* Color naranja semitransparente */
+}
+
+/* Estilos para el texto */
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    color: white; /* Color del texto */
+    font-size: 3em;
+}
+
+/* Estilos para los botones de flecha */
+.arrow-button {
+    position: absolute;
+    bottom: 50%;
+    font-size: 20px;
+    color: white; /* Color del icono */
+    cursor: pointer;
+    width: 40px; /* Ancho del botón */
+    height: 40px; /* Altura del botón */
+    line-height: 40px; /* Alineación vertical del icono en el centro */
+    text-align: center; /* Alineación horizontal del icono en el centro */
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.content_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
