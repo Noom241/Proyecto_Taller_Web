@@ -13,10 +13,13 @@ body{
     
 }
 
-.encabezado{
-    width: 100%;
-    height: 15vh;
+.encabezado {
+    width: 100% !important;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
+
 
 .container {
     position: relative;
@@ -76,6 +79,7 @@ body{
 
 .content_page{
     display: flex;
+    margin-top: 15vh;
     justify-content: center;
     align-items: center;
     flex-direction: column; /* Cambiar la dirección del flujo a columna */
