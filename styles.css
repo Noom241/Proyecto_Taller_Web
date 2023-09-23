@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.encabezado{
+    width: 100%;
+}
+
+.content_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+
+    background-color: rgba(255, 255, 255, 0.8); /* Puedes combinar padding-left y padding-right en una sola propiedad */
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.title {
+    color: #8B4513;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+label {
+    width: 120px;
+    color: #000000;
+}
+
+.input {
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #8B4513;
+    margin-right: 20px;
+    background: none;
+    transition: background-color 0.3s; /* Agregamos una transición suave */
+}
+
+.input:focus {
+    outline: none;
+    background-color: #f0f0f000;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.register-button {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.forgot-password-link {
+    color: #000000;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
